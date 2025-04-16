@@ -4,7 +4,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 function DeletePopUp(props) {
-    const API_URL = "http://localhost:3005/api/user";
+    const API_URL = "https://taskmanager-i1eo.onrender.com/api/user";
     const { SetPopup, id, getAllUsers } = props;
     
 

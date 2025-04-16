@@ -9,7 +9,7 @@ import { FaExclamationCircle } from "react-icons/fa";
 function SignUp() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const API_URL = "http://localhost:3005";
+  const API_URL = "https://taskmanager-i1eo.onrender.com";
 
   const [input, setInput] = useState({
     name: "",

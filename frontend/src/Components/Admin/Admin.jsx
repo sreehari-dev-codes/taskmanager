@@ -25,7 +25,7 @@ function Admin() {
       setLoad(true);
       const token = Cookies.get("token");
       const response = await axios.get(
-        "http://localhost:3005/api/admin/getUsersproject",
+        "https://taskmanager-i1eo.onrender.com/api/admin/getUsersproject",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
